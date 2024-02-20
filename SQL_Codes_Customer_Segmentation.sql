@@ -27,19 +27,18 @@ The old product_id is not desired, and the new product_id column should also not
 SELECT f.row_id, f.order_id, f.order_date, f.ship_date, f.ship_mode, f.customer_id, f.customer_name, f.segment
 , f.city, f.state, f.country, f.postal_code, f.market, f.region, f.category, f.sub_category
 
-, d.product_id AS product_id															--New product_id
+, d.product_id AS product_id 								--New product_id													--New product_id
 
 , f.product_name, f.sales, f.quantity, f.discount, f.profit, f.shipping_cost, f.order_priority
 
 FROM fact_sales f
-INNER JOIN (																		--This is a SELF JOIN
+INNER JOIN ( 										--This is a SELF JOIN																	--This is a SELF JOIN
 	SELECT product_name, ROW_NUMBER() OVER (ORDER BY product_name ASC) AS product_id 
 	FROM (
 		SELECT DISTINCT product_name 
-		FROM fact_sales) AS products) d				--The new product keys (product_id) have been created
+		FROM fact_sales) AS products) d 	--The new product keys (product_id) have been created
 
 ON f.product_name = d.product_name;
 
 ----------------------------------------------------------------------------------------------------------
-
 
