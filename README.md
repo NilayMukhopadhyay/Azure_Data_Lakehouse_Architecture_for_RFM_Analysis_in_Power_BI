@@ -5,7 +5,7 @@ The pipeline automates ingestion, transformation, and reporting, delivering pres
 
 - **End-to-end Project:** [*Please click here to access my concise blog on the Maven Showcase platform, demonstrating my comprehensive end-to-end approach.*](Link)
   
-- **Power BI Report:** [*You may click here to directly interact with the Power BI report.*]([https://app.powerbi.com/view?r=eyJrIjoiYjJiNjA1M2MtMWNhZi00NGFlLThjZDgtODBiNWU4NDZiYjJhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9](https://mavenshowcase.com/project/5084))
+- **Power BI Report:** [*You may click here to directly interact with the Power BI report.*]([[https://app.powerbi.com/view?r=eyJrIjoiYjJiNjA1M2MtMWNhZi00NGFlLThjZDgtODBiNWU4NDZiYjJhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9](https://mavenshowcase.com/project/5084](https://app.powerbi.com/view?r=eyJrIjoiYjJiNjA1M2MtMWNhZi00NGFlLThjZDgtODBiNWU4NDZiYjJhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
   
 - **Data Source:** [*Kaggle*](https://www.kaggle.com/datasets/gopikamahadevan/global-superstore)
 
