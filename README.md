@@ -10,7 +10,7 @@ The pipeline automates ingestion, transformation, and reporting, delivering pres
 - **Data Source:** [*Kaggle*](https://www.kaggle.com/datasets/gopikamahadevan/global-superstore)
 
 **Tools and Services**
-1. Azure Data Factory (ADF) – Orchestrates ingestion pipelines from Blob Storage to ADLS Gen2.
-2. Azure Data Lake Storage Gen2 (ADLS Gen2) – Primary storage for Bronze, Silver, and Gold datasets.
-3. Azure Databricks (PySpark + SparkSQL) – Data exploration, cleansing, enrichment, and dimensional modeling.
-4. Power BI – Consumes curated Gold Layer data for RFM segmentation and churn analysis dashboards.
+**1. Azure Data Factory (ADF) –** Orchestrates ingestion pipelines from Blob Storage to ADLS Gen2.
+**2. Azure Data Lake Storage Gen2 (ADLS Gen2) –** Primary storage for Bronze, Silver, and Gold datasets.
+**3. Azure Databricks (PySpark + SparkSQL) –** Data exploration, cleansing, enrichment, and dimensional modeling.
+**4. Power BI –** Consumes curated Gold Layer data for RFM segmentation and churn analysis dashboards.
