@@ -3,7 +3,7 @@ This project implements an end-to-end Azure Data Lakehouse solution using the Me
 
 The pipeline automates ingestion, transformation, and reporting, delivering prescriptive insights that drive actionable business decisions — such as identifying discount gaps for at-risk customers and optimal purchase frequency ranges for maximum profit.
 
-- **End-to-end Project:** [*Click here*](https://www.notion.so/Project-Summary-2feb9932e17f80aca95eeccfc8e810a7)
+- **End-to-end Project:** [*Click here*](https://app.notion.com/p/Project-Summary-329b9932e17f81049070ef18b22b7a2d)
 - **Data Source:** [*Kaggle*](https://www.kaggle.com/datasets/gopikamahadevan/global-superstore)
 
 **Tools and Services**
